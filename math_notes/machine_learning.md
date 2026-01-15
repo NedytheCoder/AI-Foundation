@@ -42,3 +42,22 @@ ML is literally about learning via data. Now I just learned that this learning g
 Seqential steps taken to automate ML workflows to produce ML models. These steps includes data extraction, raw data input, preprocessing, features, outputs, model parameters, model training, deployment, predicting outputs
 
 Tensor flow, aesara based on theano, scipy, scikitlearn, keras, pytorch
+
+# Data Preprocessing
+This is what we do to data even before the model uses it for learning. This includes:
+- Filling or removing NANs
+- Encoding categories or strings(pd.get_dummies)
+- Scaling
+- Parse dates
+- Clean texts
+- Outlier removal, etc
+
+# Important terms and their meaning
+## Bias:
+How accurate our data predicts its own training data
+## Variance:
+The difference in accuracy of the training data prediction and the test data prediction
+## Overfitting:
+Sometimes when our model knows a lil bit too much about our training data to the point its basically memorized which reduces accuracy in new data predictions.
+## Underfitting:
+When the model doesn't learn much about the data that it's simply too dumb to be reliable
