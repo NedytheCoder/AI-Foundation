@@ -1,26 +1,26 @@
-# Machine Learning run through
+### Machine Learning run through
 Machine learning is simply the ability of a machine to learn and replicate human behaviour based of data. In essence, when we say we're modelling or creating a model, we're simply feeding selected learning algorithms with necessary data to perform the desired action
 
 ## Machine Learning ML/Deep learning DL/Artificial Intelligence AI
 These 3 are often used interchangeably but there's a subtle nuance to each of them
-### ML
+# ML
 - Simply an algorithm that learns and performs based of the data exposed to it. Typical ML 
 
-### DL
+# DL
 - Layers of neural networks built with ML algorithms, aka ML's elder and more complex sibling
 
-### AI
+# AI
 - Leverages ML and DL techniques to solve problems, so it's basically just a blanket term for everything that consist of machines that learn
 
 ## ML Algorithms
 These are just a set of instructions used to solve problems. They aid in predicting, classifying, improving performance of any software application, etc. As I said earlier, ML learns through data, so PERFORMANCE OF THE ALGORITHM is evaluated based on the quality of input data.
 
-## Real life applications include:
+# Real life applications include:
 Predict weather forecast, determine traffic rules, CO2 emission, etc
 
-# Types of ML
+## Types of ML
 ML is literally about learning via data. Now I just learned that this learning goes on in 3 different ways and they are:
-## Supervised Learning
+# Supervised Learning
 - Inputs and outputs are known and are used to train and evaluate accuracy of the model
 - A lot like being supervised by a supervisor. 
 - Algorithms: Classification and Regression 
@@ -28,22 +28,22 @@ ML is literally about learning via data. Now I just learned that this learning g
 - Application: Predicting year-wise temperature rise and fall while being armed with previous year-wise data
 - You'll see supervised learning on problems that needs to be classified or regressed
 
-## Unsupervised Learning
+# Unsupervised Learning
 - Complete opposite of the above.
 - Ain't nobody knows the desired output
 - We simply want the algorithm to find patterns and recognize relationships between data points
 - Application: Identification of user groups based on commonalities
 
-## Reinforcement Learning
+# Reinforcement Learning
 - Learns from previous errors
 - Application: Youtube recommendation
 
-# What an ML pipeline
+## What an ML pipeline
 Seqential steps taken to automate ML workflows to produce ML models. These steps includes data extraction, raw data input, preprocessing, features, outputs, model parameters, model training, deployment, predicting outputs
 
 Tensor flow, aesara based on theano, scipy, scikitlearn, keras, pytorch
 
-# Data Preprocessing
+## Data Preprocessing
 This is what we do to data even before the model uses it for learning. This includes:
 - Filling or removing NANs
 - Encoding categories or strings(pd.get_dummies)
@@ -52,12 +52,35 @@ This is what we do to data even before the model uses it for learning. This incl
 - Clean texts
 - Outlier removal, etc
 
-# Important terms and their meaning
-## Bias:
+## Important terms and their meaning
+# Bias:
 How accurate our data predicts its own training data
-## Variance:
+# Variance:
 The difference in accuracy of the training data prediction and the test data prediction
-## Overfitting:
+# Overfitting:
 Sometimes when our model knows a lil bit too much about our training data to the point its basically memorized which reduces accuracy in new data predictions.
-## Underfitting:
+# Underfitting:
 When the model doesn't learn much about the data that it's simply too dumb to be reliable
+
+### Linear regression
+A supervised learning algorithm used for predicting continuous values. It models the relationship between a dependent variable and one or more independent variables by fitting a linear equation to observed data. 
+## Types
+# Linear
+- Uses the least squares criterion for estimation 
+# Polynomial
+- A form of linear
+- The relationship between x and y is an nth degree polynomial  
+# Support Vector
+- Creates max data points within boundary lines and the hyperplane
+- Can be used for both regression and classification 
+# Decision Tree
+- Literally as it sounds
+# Random Forest
+- An ensemble learning method that uses bagging or bootstrap aggregation techniques 
+- Uses multiple decision trees in parallel and not interacting with one another to define the output
+# Ridge 
+- Deals with multicollinearity data
+# Lasso 
+- Least Absolute Shrinkage and Selection Operation
+- 
+# Logistic
