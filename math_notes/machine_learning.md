@@ -84,3 +84,20 @@ A supervised learning algorithm used for predicting continuous values. It models
 - Least Absolute Shrinkage and Selection Operation
 - 
 # Logistic
+
+Linear regression is a parametric approach where one makes assumptions of data for analysis. Successful regression is validating the assumptions made. These assumption include:
+- The dependent and independent variables have a linear and additive relationship
+- Error terms are normally distributed
+- Independent variables are not correlated i.e multicollinearity doesn't exist
+- Error residual terms aren't correlated i.e autocorrelation are absent
+- Error terms show constant variance i.e homoscedasticity. Opposite is hetero..
+
+
+### Logistic Regression
+Used to predict values based on prior observation of a dataset. It finds the relationship between qualitative discrete dependent variables and several independent variables. Primarily used for classification problems.
+- A sigmoid function is used here
+## Types
+# Binary
+For just 0 or 1
+# Multinomial
+For more that 2 classification i.e 0, 1 or 2, ...
