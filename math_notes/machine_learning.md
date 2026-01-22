@@ -79,12 +79,15 @@ A supervised learning algorithm used for predicting continuous values. It models
 - An ensemble learning method that uses bagging or bootstrap aggregation techniques 
 - Uses multiple decision trees in parallel and not interacting with one another to define the output
 # Ridge 
+- Shrinks the coefficient towards zero to reduct the complexity of data
 - Deals with multicollinearity data
+- Minimizes the variance of the data without increasing bias
+- Regularization technique uses a loss function Residual Sum of Squares(RSS)
 # Lasso 
 - Least Absolute Shrinkage and Selection Operation
-- 
 # Logistic
 
+### Linear
 Linear regression is a parametric approach where one makes assumptions of data for analysis. Successful regression is validating the assumptions made. These assumption include:
 - The dependent and independent variables have a linear and additive relationship
 - Error terms are normally distributed
@@ -92,8 +95,7 @@ Linear regression is a parametric approach where one makes assumptions of data f
 - Error residual terms aren't correlated i.e autocorrelation are absent
 - Error terms show constant variance i.e homoscedasticity. Opposite is hetero..
 
-
-### Logistic Regression
+### Logistics
 Used to predict values based on prior observation of a dataset. It finds the relationship between qualitative discrete dependent variables and several independent variables. Primarily used for classification problems.
 - A sigmoid function is used here
 ## Types
@@ -101,3 +103,6 @@ Used to predict values based on prior observation of a dataset. It finds the rel
 For just 0 or 1
 # Multinomial
 For more that 2 classification i.e 0, 1 or 2, ...
+
+### Polynomial
+Linear's more complex elder bro who uses exponents(curves) rather than a straight line to fit complex data relationships
