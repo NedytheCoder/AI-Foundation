@@ -79,7 +79,7 @@ A supervised learning algorithm used for predicting continuous values. It models
 - An ensemble learning method that uses bagging or bootstrap aggregation techniques 
 - Uses multiple decision trees in parallel and not interacting with one another to define the output
 # Ridge 
-- Shrinks the coefficient towards zero to reduct the complexity of data
+- Shrinks the coefficient towards zero to reduce the complexity of data
 - Deals with multicollinearity data
 - Minimizes the variance of the data without increasing bias
 - Regularization technique uses a loss function Residual Sum of Squares(RSS)
@@ -107,4 +107,4 @@ For more that 2 classification i.e 0, 1 or 2, ...
 ### Polynomial
 Linear's more complex elder bro who uses exponents(curves) rather than a straight line to fit complex data relationships
 
-###
+### Regularization, Algorithm
