@@ -106,3 +106,5 @@ For more that 2 classification i.e 0, 1 or 2, ...
 
 ### Polynomial
 Linear's more complex elder bro who uses exponents(curves) rather than a straight line to fit complex data relationships
+
+###
