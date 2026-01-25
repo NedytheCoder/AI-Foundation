@@ -108,3 +108,35 @@ For more that 2 classification i.e 0, 1 or 2, ...
 Linear's more complex elder bro who uses exponents(curves) rather than a straight line to fit complex data relationships
 
 ### Regularization, Algorithm
+
+### Classifiers
+Classification Algorithms
+- Data that these algorithms use can either be structured or unstructured
+## Classification types
+- Binary classification - a, b, c, d, and SVM are typically used for this 
+- Multi-class - a, c, d, f, and Gradient boost are typically used for this
+- Multi-label - Multiple label c, f, and Gradient boost are typically used for this
+- Imbalanced - Literally binary classification but the traditional class is way more in observations - Random Undersampling and SMOTE Oversampling techniques are typically used here
+## Algorithm types
+- Naive Bayes
+- Linear classifier: Logistic Regression
+- Decision tree classifier
+- K-nearest neighbors
+- Stochastic gradient descent(SDG) classifier
+- Random forests 
+# To decide which classifier to be used, you take into account the nature of the input data and then a classifier is determined
+
+## How to select performance parameters
+- Chose features while applying classifiers to the data set under consideration. T - True, F - False, P - Positive, N - Negative
+- Looking at a confusion matrix is one way to evaluate the performance of a classifier
+# The 4 metrics used for evaluation with a confusion matrix are:
+- Accuracy (TN + TP)/(TN + TP + FP + FN)
+- Precision (TN)/(TN + FN) OR (TP)/(TP + FP)
+- Specificity 
+- Recall or sensitivity (TN)/(TN + FP) OR (TP)/(TP + FN)
+
+## Naive Bayes
+- Types include Multinomial Naive bayes, gaussian and bernoulli
+- Uses the principle of contingent probability, i.e Measuring the probability of an event occuring based on something else that has already occured
+- Based on the bayes theorem
+- Segregates different objects on the basis of certain features of variables
