@@ -140,3 +140,8 @@ Classification Algorithms
 - Uses the principle of contingent probability, i.e Measuring the probability of an event occuring based on something else that has already occured
 - Based on the bayes theorem
 - Segregates different objects on the basis of certain features of variables
+
+## Stochastic gradient descent(SDG) classifier
+- Forms the basis of neural network
+- It iterates through the function over and over again till we find the x where y is the smallest
+- Step size = Learning rate * gradient
